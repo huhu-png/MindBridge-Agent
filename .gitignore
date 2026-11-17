@@ -1,0 +1,23 @@
+.venv/
+.venv-win/
+__pycache__/
+*.pyc
+.env
+.uploads/
+data/*.db
+data/*.sqlite
+data/*.xlsx
+data/chroma/
+target/
+.DS_Store
+
+# Local model weights and generated artifacts
+*.gguf
+*.gguf.zip
+*.safetensors
+*.pt
+*.pth
+.env.*
+!.env.example
+.pytest_cache/
+data/chroma-snapshots/
